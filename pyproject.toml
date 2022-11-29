@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "foo1"
+version = "0.1.0"
+description = ""
+authors = ["Anthony Naddeo <anthony@whylabs.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.15"
+pandas = "^1.5.2"
+whylogs = {path = "whylogs-1.1.14-py3-none-any.whl"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
